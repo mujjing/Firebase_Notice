@@ -31,7 +31,7 @@ class NoticeViewController: UIViewController {
     
     
     @IBAction func doneButtonTapped(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
+        exit(0)
     }
     
 }

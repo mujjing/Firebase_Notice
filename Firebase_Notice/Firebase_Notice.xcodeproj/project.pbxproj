@@ -17,6 +17,7 @@
 		DBA4C2E9274CA3C3008A1B20 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA4C2E7274CA3C3008A1B20 /* NoticeViewController.swift */; };
 		DBA4C2EA274CA3C3008A1B20 /* NoticeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DBA4C2E8274CA3C3008A1B20 /* NoticeViewController.xib */; };
 		DBA4C2EC274CF9F3008A1B20 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBA4C2EB274CF9F3008A1B20 /* GoogleService-Info.plist */; };
+		DBC31FB3274D16A000E16535 /* RemoteConfigDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = DBC31FB2274D16A000E16535 /* RemoteConfigDefaults.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		DBA4C2E7274CA3C3008A1B20 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		DBA4C2E8274CA3C3008A1B20 /* NoticeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoticeViewController.xib; sourceTree = "<group>"; };
 		DBA4C2EB274CF9F3008A1B20 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DBC31FB2274D16A000E16535 /* RemoteConfigDefaults.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = RemoteConfigDefaults.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +56,6 @@
 				3CD684DB83399084B8AFE0D6 /* Pods-Firebase_Notice.debug.xcconfig */,
 				5896872BEB27A1B73966CEBE /* Pods-Firebase_Notice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -97,6 +98,7 @@
 				DBA4C2E7274CA3C3008A1B20 /* NoticeViewController.swift */,
 				DBA4C2E8274CA3C3008A1B20 /* NoticeViewController.xib */,
 				DBA4C2EB274CF9F3008A1B20 /* GoogleService-Info.plist */,
+				DBC31FB2274D16A000E16535 /* RemoteConfigDefaults.plist */,
 			);
 			path = Firebase_Notice;
 			sourceTree = "<group>";
@@ -161,6 +163,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC31FB3274D16A000E16535 /* RemoteConfigDefaults.plist in Resources */,
 				DBA4C2E0274CA375008A1B20 /* LaunchScreen.storyboard in Resources */,
 				DBA4C2DD274CA375008A1B20 /* Assets.xcassets in Resources */,
 				DBA4C2EA274CA3C3008A1B20 /* NoticeViewController.xib in Resources */,
